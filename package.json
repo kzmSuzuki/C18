@@ -2,9 +2,9 @@
   "name": "c18",
   "version": "0.0.0",
   "private": true,
-"scripts": {
-  "postinstall": "prisma generate"
-},
+  "scripts": {
+    "postinstall": "prisma generate"
+  },
   "dependencies": {
     "@prisma/client": "^6.15.0",
     "cookie-parser": "~1.4.7",
@@ -16,5 +16,8 @@
   },
   "devDependencies": {
     "prisma": "^6.15.0"
+  },
+  "engines": {
+    "node": "^22.23.4 || ^24.22.1 || ^26.12.1"
   }
 }
